@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-gray-100: #f4f3f1;
+  --color-gray-200: #dddbd8;
+  --color-gray-300: #ccc9c6;
+  --color-gray-400: #aeaba7;
+  --color-gray-500: #8a8784;
+  --color-gray-600: #656360;
+  --color-gray-700: #4b4a47;
+  --color-gray-800: #31302e;
+  --color-gray-900: #1f1d1b;
+
+  --color-primary-100: #fcf3e1;
+  --color-primary-200: #fceccd;
+  --color-primary-300: #fae1af;
+  --color-primary-400: #fbd997;
+  --color-primary-500: #ffd37c;
+  --color-primary-600: #f9c762;
+  --color-primary-700: #fbc14d;
+  --color-primary-800: #fab833;
+  --color-primary-900: #f6ad1b;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: var(--color-primary-100);
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  max-width: 20rem;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  color: var(--color-primary-400);
+}
+
+label {
+  margin-right: 1rem;
+}
+
+table {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 0.5rem;
+}
+
+table thead {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--color-primary-400);
+  padding: 1rem 2rem;
+  white-space: nowrap;
+}
+
+table tbody {
+  font-size: 0.95rem;
+  text-align: center;
+  color: var(--color-primary-400);
+  padding: 1rem 2rem;
+  white-space: nowrap;
+}
+
+td a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+td a:hover,
+td a.active {
+  color: var(--color-primary-800);
+}

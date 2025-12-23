@@ -1,0 +1,6 @@
+# pip3 install -r requirements.txt
+flask
+python-dotenv
+flask-mysql
+mysql-connector-python
+flask-cors

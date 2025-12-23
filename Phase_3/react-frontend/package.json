@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "baseline-browser-mapping": "^2.8.28",
+    "vite": "^7.1.5"
+  },
+  "dependencies": {
+    "@formatjs/intl-numberformat": "^8.15.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router": "^7.9.5"
+  }
+}
